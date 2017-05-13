@@ -1,5 +1,4 @@
 # Bamazon
-=========================
 
 This app emulates a storefront which will take in orders from customers and deplete stock from the store's inventory. It also tracks product sales across the store's departments.
 
@@ -8,7 +7,8 @@ This app emulates a storefront which will take in orders from customers and depl
 1. Create a MySQL database.
 
 2. Inside the folder `config` create a file named `env.js`.
-Inside `env.js` paste this:
+
+3. Inside `env.js` paste this:
 
 ```JavaScript
 module.exports = {
@@ -16,7 +16,7 @@ module.exports = {
 	DATABASE_USERNAME: '<input here>',
 	DATABASE_PASSWORD: '<input here>',
 	DATABASE_HOST: '<input here>',
-	DATABASE_PORT: '<input here>',
+	DATABASE_PORT: <input here>,
 	MANAGER_PASSWORD: '<input here>',
 	SUPERVISOR_PASSWORD: '<input here>'
 };
@@ -24,7 +24,7 @@ module.exports = {
 
 ## Runing the app
 
-To run the app, simply type `npm start' in the command line.
+Run the app by typing `npm start` in the command line.
 
 ## Demo
 
