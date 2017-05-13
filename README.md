@@ -4,7 +4,7 @@ This app emulates a storefront which will take in orders from customers and depl
 
 ## Configuration
 
-1. Create a MySQL database.
+1. Create a MySQL database (Any name you want).
 
 2. Inside the folder `config` create a file named `env.js`.
 
@@ -23,7 +23,7 @@ module.exports = {
 ```
 4. Enter your database information and desired passwords.
 
-## Runing the app
+## Running the app
 
 Run the app by typing `npm start` in the command line.
 
