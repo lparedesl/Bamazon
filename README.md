@@ -21,6 +21,7 @@ module.exports = {
 	SUPERVISOR_PASSWORD: '<input here>'
 };
 ```
+4. Enter your database information and desired passwords.
 
 ## Runing the app
 
