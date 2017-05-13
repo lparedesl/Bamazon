@@ -24,7 +24,7 @@ bamazon
 });
 
 db.Sequelize = Sequelize;
-db.Bamazon = bamazon;
+db.bamazon = bamazon;
 db.Department = require("../models/department")(bamazon, Sequelize);
 db.Product = require("../models/product")(bamazon, Sequelize);
 

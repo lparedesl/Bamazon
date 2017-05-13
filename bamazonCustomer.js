@@ -119,7 +119,7 @@ function addToCart() {
 	});
 }
 
-db.Bamazon.sync()
+db.bamazon.sync()
 .then(function() {
 	return db.Product.findAll();
 })

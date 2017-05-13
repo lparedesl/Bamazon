@@ -1,6 +1,6 @@
 var db = require("./db");
 
-db.Bamazon.sync()
+db.bamazon.sync()
 .then(function() {
 	return db.Product.bulkCreate([
 		{

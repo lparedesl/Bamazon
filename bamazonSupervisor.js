@@ -54,7 +54,7 @@ function addDepartment() {
 	});
 }
 
-db.Bamazon.sync()
+db.bamazon.sync()
 .then(function() {
 	return db.Department.findAll();
 })
