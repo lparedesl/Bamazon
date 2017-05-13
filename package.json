@@ -1,0 +1,17 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Luis Paredes",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.8.0",
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  }
+}
